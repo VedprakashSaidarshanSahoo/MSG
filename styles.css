@@ -1,0 +1,157 @@
+/* Custom styles for SchoolConnect Bulk Messaging System */
+
+/* Toast notification styles */
+.toast {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.375rem;
+    max-width: 350px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    animation: slideIn 0.3s ease-out forwards;
+}
+
+.toast-success {
+    background-color: #DEF7EC;
+    border-left: 4px solid #0E9F6E;
+    color: #03543E;
+}
+
+.toast-error {
+    background-color: #FDE8E8;
+    border-left: 4px solid #F05252;
+    color: #9B1C1C;
+}
+
+.toast-info {
+    background-color: #E1EFFE;
+    border-left: 4px solid #3F83F8;
+    color: #1E429F;
+}
+
+.toast-title {
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.toast-message {
+    font-size: 0.75rem;
+}
+
+.toast-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: currentColor;
+    opacity: 0.7;
+}
+
+.toast-close:hover {
+    opacity: 1;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+
+/* Custom badge styles */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.badge-valid {
+    background-color: #DEF7EC;
+    color: #03543E;
+    border: 1px solid #0E9F6E;
+}
+
+.badge-invalid {
+    background-color: #FDE8E8;
+    color: #9B1C1C;
+    border: 1px solid #F05252;
+}
+
+.badge-whatsapp {
+    background-color: #D1FAE5;
+    color: #065F46;
+    border: 1px solid #10B981;
+}
+
+.badge-sms {
+    background-color: #DBEAFE;
+    color: #1E40AF;
+    border: 1px solid #3B82F6;
+}
+
+.badge-sent {
+    background-color: #E0E7FF;
+    color: #3730A3;
+    border: 1px solid #6366F1;
+}
+
+.badge-delivered {
+    background-color: #DEF7EC;
+    color: #03543E;
+    border: 1px solid #0E9F6E;
+}
+
+.badge-failed {
+    background-color: #FDE8E8;
+    color: #9B1C1C;
+    border: 1px solid #F05252;
+}
+
+/* Dot indicator styles */
+.status-dot {
+    display: inline-block;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 9999px;
+    margin-right: 0.25rem;
+}
+
+.status-dot-green {
+    background-color: #0E9F6E;
+}
+
+.status-dot-yellow {
+    background-color: #F59E0B;
+}
+
+.status-dot-red {
+    background-color: #F05252;
+}
+
+/* Drag and drop styles */
+#dropzone.dragover {
+    border-color: #3B82F6;
+    background-color: #EFF6FF;
+}

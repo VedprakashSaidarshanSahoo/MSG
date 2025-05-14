@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "John Smith",
+    "Phone Number": "+1234567890",
+    "Role": "Parent"
+  },
+  {
+    "Name": "Jane Doe",
+    "Phone Number": "+9876543210",
+    "Role": "Teacher"
+  },
+  {
+    "Name": "David Johnson",
+    "Phone Number": "+1122334455",
+    "Role": "Staff"
+  },
+  {
+    "Name": "Sarah Williams",
+    "Phone Number": "+5566778899",
+    "Role": "Parent"
+  },
+  {
+    "Name": "Michael Brown",
+    "Phone Number": "+1231231234",
+    "Role": "Parent"
+  }
+]
